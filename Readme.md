@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Vsevolod Shabashov](https://up.htmlacademy.ru/htmlcss/28/user/1158659).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Половков](https://htmlacademy.ru/profile/psinegmatic).
 
 ---
 
