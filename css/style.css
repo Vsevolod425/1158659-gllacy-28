@@ -175,8 +175,8 @@ input[type="radio"].visually-hidden {
 	fill: #fff;
 	background-color: rgba(255, 255, 255, 0.2);
 }
-.user_navigation button:hover,
-.user_navigation button:focus {
+.navigation_button:hover,
+.navigation_button:focus {
 	fill: #000;
 	color: #000;
   background-color: #fff;
@@ -190,6 +190,8 @@ input[type="radio"].visually-hidden {
 	margin-right: 5px;
 }
 .button_search {
+  position: relative;
+  z-index: 5;
 	padding: 8px 8px;
 }
 .button_search svg {
@@ -198,9 +200,9 @@ input[type="radio"].visually-hidden {
 .site_search {
 	display: none;
 	position: absolute;
-  top: 80%;
-  right: 18%;
-	z-index: 5;
+  top: 122%;
+  right: 3%;
+	z-index: 3;
 	width: 340px;
 	height: 85px;
 	padding: 20px 15px;
@@ -208,8 +210,7 @@ input[type="radio"].visually-hidden {
 	background-color: #f8f7f4;
 }
 .site_search_catalog {
-  top: 80%;
-  right: 20%;
+  right: 0;
 }
 .site_search::before {
 	content: "";
@@ -220,6 +221,7 @@ input[type="radio"].visually-hidden {
 	width: 170px;
 	height: 45px;
 	background-color: rgba(225, 225, 225, 0);
+  /*background-color: red;*/
 }
 .site_search input {
 	width: 310px;
