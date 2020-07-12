@@ -27,6 +27,7 @@ input[type="radio"].visually-hidden {
 }
 .button {
 	display: inline-block;
+  vertical-align: top;
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 24px;
@@ -281,6 +282,7 @@ input[type="radio"].visually-hidden {
 }
 .registration_links {
 	display: inline-block;
+  vertical-align: top;
 	font-size: 14px;
 	line-height: 24px;
 	width: 128px;
@@ -324,12 +326,13 @@ input[type="radio"].visually-hidden {
 .slider_controls {
 	position: absolute;
 	left: 0;
-	bottom: 10%;
+	bottom: 10.5%;
 	z-index: 20;
 	font-size: 0px;
 }
 .slider_controls label {
 	display: inline-block;
+  vertical-align: top;
 	width: 20px;
 	height: 20px;
 	border: 2px solid #fff;
@@ -364,15 +367,15 @@ input[type="radio"].visually-hidden {
 }
 #product_1:checked ~ .site_wrapper {
 	background-color: #849d8f;
-	background-image: url(../img/ice_bg_1.png);
+	background-image: url(../img/ice-bg-1.png);
 }
 #product_2:checked ~ .site_wrapper {
 	background-color: #8996a6;
-	background-image: url(../img/ice_bg_2.png);
+	background-image: url(../img/ice-bg-2.png);
 }
 #product_3:checked ~ .site_wrapper {
 	background-color: #9d8b84;
-	background-image: url(../img/ice_bg_3.png);
+	background-image: url(../img/ice-bg-3.png);
 }
 .site_wrapper::before,
 .site_wrapper::after {
@@ -695,12 +698,11 @@ input[type="radio"].visually-hidden {
 }
 .contacts {
 	position: absolute;
-	top: -0.7%;
+	top: -0.5%;
 	right: 0;
+  z-index: 4;
+  text-align: right;
 	margin: 0;
-}
-.contacts span {
-	padding-left: 16px;
 }
 .crumbs,
 .crumbs ul {
@@ -747,7 +749,7 @@ select {
 	display: flex;
 	flex-wrap: wrap;
 	max-width: 872px;
-	margin-bottom: 40px;
+	margin-bottom: 38px;
 }
 .sorting_menu label {
 	font-size: 14px;
@@ -757,6 +759,7 @@ select {
 	margin: 0;
 }
 .sorting_label {
+  margin: 0;
 	padding-left: 17px;
 }
 .sorting svg {
@@ -766,7 +769,7 @@ select {
 	fill: #fff;
 }
 .sorting_list {
-	margin: 3px 15px 0 0;
+	margin: 6px 15px 0 0;
 	padding: 8px 33px 8px 15px;
 	border: none;
 	border-radius: 50px;
@@ -794,6 +797,7 @@ select {
 }
 .price_control label {
 	display: inline-block;
+  vertical-align: top;
 	font-size: 14px;
 }
 .min_value {
@@ -809,7 +813,7 @@ select {
 	position: relative;
 	width: 220px;
 	height: 36px;
-	/*margin: 0 15px;*/
+	margin-top: 6px;
 	padding: 15px 22px;
 	border-radius: 50px;
 	background-color: rgba(255, 255, 255, 0.2);
@@ -844,13 +848,14 @@ select {
 	display: flex;
 	justify-content: space-between;
 	list-style: none;
-	margin: 2px 0 0 15px;
+	margin: 5px 0 0 15px;
 	padding: 7px 14px;
 	align-items: center;
 	border-radius: 50px;
 	background-color: rgba(255, 255, 255, 0.2);
 }
 .fat_label {
+  margin: 0;
 	padding-left: 32px;
 }
 .fat_item {
@@ -892,6 +897,7 @@ select {
 	margin: 11px 0 0 0;
 }
 .filling_label {
+  margin: 0;
 	padding-left: 16px;
 }
 .filling_inner {
