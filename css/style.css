@@ -122,6 +122,7 @@ input[type='radio'].visually_hidden {
 }
 .site_navigation > li:hover .site_navigation_menu {
   display: block;
+  box-shadow: 0 15px 18px 5px rgba(0, 0, 0, 0.4);
 }
 .site_navigation_menu a {
   width: 143px;
